@@ -327,14 +327,14 @@
                 header.className = "bg-brand-green p-6 text-white text-center";
                 header.innerHTML = `<div class="text-5xl mb-2"><i class="fas fa-shield-alt"></i></div><h3 class="text-2xl font-bold">您可以免費升級保護力！</h3>`;
                 name.textContent = "20價結合型疫苗 (PCV20)";
-                desc.innerHTML = "您之前打過23價疫苗，<span class="font-bold text-red-500">若已間隔滿 1 年</span>，即可免費補打這劑 PCV20，讓保護力更全面、更有記憶力。";
+                desc.innerHTML = '您之前打過23價疫苗，<span class="font-bold text-red-500">若已間隔滿 1 年</span>，即可免費補打這劑 PCV20，讓保護力更全面、更有記憶力。';
             
             } else if (userData.history === '13v') {
                 // 狀況 C: 打過 13/15價 -> 公費提供 PPV23 (過渡期政策)
                 header.className = "bg-brand-orange p-6 text-white text-center";
                 header.innerHTML = `<div class="text-5xl mb-2"><i class="fas fa-info-circle"></i></div><h3 class="text-2xl font-bold">您可以免費接種第二劑</h3>`;
                 name.textContent = "23價多醣體疫苗 (PPV23)";
-                desc.innerHTML = "依照目前政策，您已接種過結合型疫苗。若<span class="font-bold text-red-500">間隔已滿 1 年</span>，公費將補助您接種 23價疫苗，以達成完整保護。";
+                desc.innerHTML = '依照目前政策，您已接種過結合型疫苗。若<span class="font-bold text-red-500">間隔已滿 1 年</span>，公費將補助您接種 23價疫苗，以達成完整保護。';
             }
         }
 
